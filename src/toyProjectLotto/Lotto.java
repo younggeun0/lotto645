@@ -49,10 +49,10 @@ public class Lotto {
 		table[5] = new int[7];
 		table[6] = new int[3];
 
-		for (int i = 0; i < picked.length; i++) {
+		/*for (int i = 0; i < picked.length; i++) {
 			System.out.print(picked[i] + " ");
 		}
-		System.out.println();
+		System.out.println();*/
 
 		int idx = 1;
 		int flag = 0;
@@ -66,7 +66,11 @@ public class Lotto {
 					}
 				}
 				if (flag != 1) {
-					System.out.print("[" + idx + "]\t");
+					if (idx < 10) {
+						System.out.print("[0" + idx + "]\t");
+					} else {
+						System.out.print("[" + idx + "]\t");
+					}
 					idx++;
 					flag = 0;
 				} else {

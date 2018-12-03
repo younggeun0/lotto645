@@ -19,7 +19,8 @@ public class Run {
 					System.exit(0);
 				} else if (game > 0 && game < 6) {
 					System.out.println("------------------------------------------------------");
-					System.out.printf("%d 게임 : %d원\n",game,(game*1000));
+					System.out.printf("  %d 게임 : %d원\n",game,(game*1000));
+					System.out.println("------------------------------------------------------");
 					for(int i=0; i<game; i++) {
 						lotto.printNum(lotto.sortNum(lotto.pickNum()));
 					}
