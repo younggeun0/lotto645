@@ -1,41 +1,34 @@
 package toyProjectLotto;
 
 public class Lotto {
-	
+
 	int[] num = new int[45];
-	
+
 	public Lotto() {
-		for(int i=0; i<num.length; i++) {
-			num[i] = i+1;
+		for (int i = 0; i < num.length; i++) {
+			num[i] = i + 1;
 		}
 	}
-	
-	public int[] mixNum() {
+
+	public int[] pickNum() {
 		int temp;
-		for(int i=0; i<num.length; i++) {
-			int idx=(int)(Math.random()*45);
+		int[] picked = new int[6];
+		for (int i = 0; i < num.length; i++) {
+			int idx = (int) (Math.random() * 45);
 			temp = num[i];
 			num[i] = num[idx];
 			num[idx] = temp;
 		}
-		return num;
-	}
-	
-	public int[] pickNum(int[] num) {
-		int[] picked = new int[6];
-		
-		for(int i=0; i<picked.length; i++) {
-			// »ÌÀ» ¶§ Áßº¹µÇ°Ô »ÌÀ¸¸é ¾ÈµÊ
-			picked[i] = num[(int)(Math.random()*45)];
+		for (int i = 0; i < picked.length; i++) {
+			picked[i] = num[i];
 		}
-		
 		return picked;
 	}
-	
+
 	public int[] sortNum(int[] picked) {
 		int temp;
-		for(int i=0; i<picked.length-1; i++) {
-			for(int j=i+1; j<picked.length; j++) {
+		for (int i = 0; i < picked.length - 1; i++) {
+			for (int j = i + 1; j < picked.length; j++) {
 				if (picked[i] > picked[j]) {
 					temp = picked[i];
 					picked[i] = picked[j];
@@ -46,68 +39,44 @@ public class Lotto {
 		return picked;
 	}
 
-	public void printNum(int[] picked, int game) {
-		switch(game) {
-		case 1:
-			int[][] table = new int[7][];
-			table[0] = new int[7];
-			table[1] = new int[7];
-			table[2] = new int[7];
-			table[3] = new int[7];
-			table[4] = new int[7];
-			table[5] = new int[7];
-			table[6] = new int[3];
-			
-			for(int i=0; i<table.length; i++) {
-				for(int j=0; j<table[i].length; j++) {
-					System.out.print("["+table[i][j]+"]"+" ");
-				}
-				System.out.println();
-			}
-			break;
-		case 2:
-			break;
-		case 3:
-			break;
-		case 4:
-			break;
-		case 5:
-			break;
-		}
-		
-		for(int i=0; i<picked.length; i++) {
-			System.out.print(picked[i]+" ");
+	public void printNum(int[] picked) {
+		int[][] table = new int[7][];
+		table[0] = new int[7];
+		table[1] = new int[7];
+		table[2] = new int[7];
+		table[3] = new int[7];
+		table[4] = new int[7];
+		table[5] = new int[7];
+		table[6] = new int[3];
+
+		for (int i = 0; i < picked.length; i++) {
+			System.out.print(picked[i] + " ");
 		}
 		System.out.println();
+
+		int idx = 1;
+		int flag = 0;
+		for (int i = 0; i < table.length; i++) {
+			for (int j = 0; j < table[i].length; j++) {
+				for (int k = 0; k < 6; k++) {
+					if (idx == picked[k]) {
+						System.out.print("[¡á]\t");
+						flag = 1;
+						break;
+					}
+				}
+				if (flag != 1) {
+					System.out.print("[" + idx + "]\t");
+					idx++;
+					flag = 0;
+				} else {
+					idx++;
+					flag = 0;
+					continue;
+				}
+			}
+			System.out.println();
+		}
+		System.out.println("------------------------------------------------------");
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
