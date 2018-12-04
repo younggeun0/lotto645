@@ -16,6 +16,7 @@ public class Run {
 				int game = Integer.parseInt(sc.next());
 				
 				if(game == 0) {
+					sc.close();
 					System.exit(0);
 				} else if (game > 0 && game < 6) {
 					System.out.println("------------------------------------------------------");
