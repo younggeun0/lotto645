@@ -12,7 +12,12 @@
 
 ![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto3.png?raw=true)
 
+* 2018-12-11
+  * 종료버튼 event처리 구현
+
 ### 추가구현 과제
 
-* GUI 그래픽 출력
+* 예외처리, 결과화면 awt 
+* Swing GUI 구현
+
 
