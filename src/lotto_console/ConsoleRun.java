@@ -1,13 +1,13 @@
-package toyProjectLotto;
+package lotto_console;
 
 import java.util.Scanner;
 
-public class Run {
+public class ConsoleRun {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in); 
-		Lotto lotto = new Lotto();
+		ConsoleLotto lotto = new ConsoleLotto();
 		
 		while(true) {
 			

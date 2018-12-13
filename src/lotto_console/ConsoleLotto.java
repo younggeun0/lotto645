@@ -1,10 +1,10 @@
-package toyProjectLotto;
+package lotto_console;
 
-public class Lotto {
+public class ConsoleLotto {
 
 	int[] num = new int[45];
 
-	public Lotto() {
+	public ConsoleLotto() {
 		for (int i = 0; i < num.length; i++) {
 			num[i] = i + 1;
 		}
