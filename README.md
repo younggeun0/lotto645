@@ -17,6 +17,7 @@
 
 * 2018-12-13
   * 수동배치로 디자인 수정, error, 결과 UI 디자인 추가
+  * run, design, event handlling으로 패키지 
   * error dialog 구현
   
 ![04](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto4.png?raw=true)
