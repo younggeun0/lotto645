@@ -24,11 +24,10 @@
   * run, design, event handlling으로 패키지 
   * error dialog 구현
   
-![04](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto04.png?raw=true)
+![04](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto04.png?raw=true) ![06](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto06.png?raw=true)
 
 ![05](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto05.png?raw=true)
-  
-![06](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto06.png?raw=true)
+
 
 ---
 
