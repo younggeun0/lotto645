@@ -10,9 +10,7 @@
 * **2018-12-10**
   * java AWT를 이용한 main GUI 구현
   
-![02](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto2.png?raw=true)
-
-![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto3.png?raw=true)
+![02](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto2.png?raw=true) ![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto3.png?raw=true)
 
 ---
 
@@ -44,9 +42,7 @@
   
 
 
-![08](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto08.png?raw=true)
-
-![07](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto07.png?raw=true)
+![08](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto08.png?raw=true) ![07](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto07.png?raw=true)
 
 ![09](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto09.png?raw=true)
 
