@@ -10,8 +10,8 @@ import lotto_awt_evt.LottoEvt;
 
 public class LottoView extends Frame {
 
-	TextField tfGame;
-	Button btnExe, btnExit;
+	private TextField tfGame;
+	private Button btnExe, btnExit;
 
 	public LottoView() {
 		
