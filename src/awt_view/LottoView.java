@@ -1,4 +1,4 @@
-package lotto_awt_view;
+package awt_view;
 
 import java.awt.Button;
 import java.awt.Font;
@@ -6,7 +6,7 @@ import java.awt.Frame;
 import java.awt.Label;
 import java.awt.TextField;
 
-import lotto_awt_evt.LottoEvt;
+import awt_evt.LottoEvt;
 
 public class LottoView extends Frame {
 

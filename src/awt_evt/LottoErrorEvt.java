@@ -1,27 +1,27 @@
-package lotto_awt_evt;
+package awt_evt;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import lotto_awt_view.LottoResult;
+import awt_view.LottoError;
 
-public class LottoResultEvt extends WindowAdapter implements ActionListener {
+public class LottoErrorEvt extends WindowAdapter implements ActionListener {
 
-	private LottoResult lr;
+	private LottoError le;
 	
-	public LottoResultEvt(LottoResult lr) {
-		this.lr = lr;
+	public LottoErrorEvt(LottoError le) {
+		this.le = le;
 	}
 	
 	@Override
 	public void windowClosing(WindowEvent e) {
-		lr.dispose();
+		le.dispose();
 	}
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		lr.dispose();
+		le.dispose();
 	}
 }

@@ -1,4 +1,4 @@
-package lotto_console;
+package console;
 
 import java.util.Scanner;
 

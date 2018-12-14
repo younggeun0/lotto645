@@ -1,4 +1,4 @@
-package lotto_awt_view;
+package awt_view;
 
 import java.awt.Button;
 import java.awt.Dialog;
@@ -6,7 +6,7 @@ import java.awt.Label;
 import java.util.List;
 import java.util.Set;
 
-import lotto_awt_evt.LottoResultEvt;
+import awt_evt.LottoResultEvt;
 
 public class LottoResult extends Dialog {
 

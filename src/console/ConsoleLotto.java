@@ -1,4 +1,4 @@
-package lotto_console;
+package console;
 
 public class ConsoleLotto {
 

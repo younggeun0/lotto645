@@ -1,10 +1,10 @@
-package lotto_awt_view;
+package awt_view;
 
 import java.awt.Button;
 import java.awt.Dialog;
 import java.awt.Label;
 
-import lotto_awt_evt.LottoErrorEvt;
+import awt_evt.LottoErrorEvt;
 
 public class LottoError extends Dialog {
 	

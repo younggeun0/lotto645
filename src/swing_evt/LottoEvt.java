@@ -1,49 +1,45 @@
-package lotto_awt_evt;
+package swing_evt;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import lotto_awt_view.LottoError;
-import lotto_awt_view.LottoResult;
-import lotto_awt_view.LottoView;
+import javax.swing.JOptionPane;
 
-public class LottoEvt extends WindowAdapter implements ActionListener {
+import swing_view.LottoResult;
+import swing_view.LottoView;
+
+public class LottoEvt implements ActionListener {
 
 	private LottoView lv;
 	
 	public LottoEvt(LottoView lv) {
 		this.lv = lv;
 	}
-	@Override
-	public void windowClosing(WindowEvent e) {
-		lv.dispose();
-	}
+	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		if (e.getSource() == lv.getBtnExe()) {		
+		if (e.getSource() == lv.getJbExe()) {		
 			try {
-				int input = Integer.parseInt(lv.getTfGame().getText());
+				int input = Integer.parseInt(lv.getJtfGame().getText());
 				
-				if (!lv.getTfGame().getText().isEmpty()) {
+				if (!lv.getJtfGame().getText().isEmpty()) {
 					
 					if (input > 0 && input < 6) {
 						startGame(input);
 					} else {
-						new LottoError(lv);
+						JOptionPane.showMessageDialog(lv, "1~5 사이 값만 입력가능합니다.", "error", JOptionPane.ERROR_MESSAGE);
 					}
 				}
 			} catch (Exception e2) {
-				new LottoError(lv);
+				JOptionPane.showMessageDialog(lv, "1~5 사이 값만 입력가능합니다.", "error", JOptionPane.ERROR_MESSAGE);
 			}
 		}
-		if (e.getSource() == lv.getBtnExit()) {
+		if (e.getSource() == lv.getJbExit()) {
 			lv.dispose();
 		}
 	}

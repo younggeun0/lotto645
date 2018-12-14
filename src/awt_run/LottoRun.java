@@ -1,6 +1,6 @@
-package lotto_awt_run;
+package awt_run;
 
-import lotto_awt_view.LottoView;
+import awt_view.LottoView;
 
 public class LottoRun{
 
