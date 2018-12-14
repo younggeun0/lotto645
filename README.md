@@ -10,7 +10,7 @@
 * **2018-12-10**
   * java AWT를 이용한 main GUI 구현
   
-![02](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto2.png?raw=true) ![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto3.png?raw=true)
+![02](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto02.png?raw=true) ![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto03.png?raw=true)
 
 ---
 
