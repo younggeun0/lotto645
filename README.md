@@ -62,9 +62,13 @@
 
 ![12](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto12.png?raw=true)
 
+![14](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto14.png?raw=true)
+
 
 ---
 
-
 * **2018-12-16**
-  * 
+  * 게임 개별 결과를 JPanel에 LineBorder를 더해 구분하여 보여주도록 변경
+
+![15](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto15.png?raw=true)
+
