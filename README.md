@@ -50,8 +50,21 @@
 
 ---
 
-### 추가구현 과제
+* **2018-12-15**
+  * Swing을 이용하여 GUI 구현
+  * JOptionPane을 이용하면 Error 처리를 위해 구현했던 Dialog가 필요 없어짐
+    * 조금 더 간소화된 클래스다이어그램
 
-* Swing을 사용하여 GUI 구현
+
+![13](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto13.png?raw=true)
+
+![11](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto11.png?raw=true)
+
+![12](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto12.png?raw=true)
 
 
+---
+
+
+* **2018-12-16**
+  * 
