@@ -35,8 +35,8 @@ public class LottoEvt implements ActionListener {
 						JOptionPane.showMessageDialog(lv, "1~5 사이 값만 입력가능합니다.", "error", JOptionPane.ERROR_MESSAGE);
 					}
 				}
-			} catch (Exception e2) {
-				JOptionPane.showMessageDialog(lv, "1~5 사이 값만 입력가능합니다.", "error", JOptionPane.ERROR_MESSAGE);
+			} catch (NumberFormatException e2) {
+				JOptionPane.showMessageDialog(lv, "숫자만 입력가능합니다.", "error", JOptionPane.ERROR_MESSAGE);
 			}
 		}
 		if (e.getSource() == lv.getJbExit()) {
