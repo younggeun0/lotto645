@@ -12,12 +12,10 @@
   
 ![02](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto02.png?raw=true) ![03](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto03.png?raw=true)
 
----
 
 ## 2018-12-11
 * 종료버튼 event처리 구현
 
----
 
 ## 2018-12-13
 * 수동배치로 디자인 수정, error, 결과 UI 디자인 추가
@@ -29,7 +27,6 @@
 ![05](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto05.png?raw=true)
 
 
----
 
 ## 2018-12-14
 * 클래스 다이어그램 작성
@@ -48,7 +45,6 @@
 ![10](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto10.png?raw=true)
 
 
----
 
 ## 2018-12-15
 * Swing을 이용하여 GUI 구현
@@ -64,7 +60,6 @@
 ![14](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto14.png?raw=true)
 
 
----
 
 ## 2018-12-16
 * 게임 개별 결과를 JPanel에 LineBorder를 더해 구분하여 보여주도록 변경
