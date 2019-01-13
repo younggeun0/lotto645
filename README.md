@@ -19,4 +19,4 @@
 ![15](https://github.com/younggeun0/younggeun0.github.io/blob/master/_posts/img/toyProjects/lotto/lotto15.png?raw=true)
 
 
-* [개발 기록]()
+* [개발 기록](https://github.com/younggeun0/lotto645/blob/master/LOG.md)
