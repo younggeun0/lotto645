@@ -1,9 +1,9 @@
-package swing_evt;
+package lotto_controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import swing_view.LottoResult;
+import lotto_view.LottoResult;
 
 public class LottoResultEvt implements ActionListener {
 

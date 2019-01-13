@@ -1,7 +1,8 @@
-package swing_evt;
+package lotto_controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -10,15 +11,19 @@ import java.util.Set;
 
 import javax.swing.JOptionPane;
 
-import swing_view.LottoResult;
-import swing_view.LottoView;
+import lotto_model.LottoDAO;
+import lotto_view.LottoResult;
+import lotto_view.LottoView;
 
-public class LottoEvt implements ActionListener {
+public class LottoViewEvt implements ActionListener {
 
 	private LottoView lv;
+	private LottoDAO l_dao;
 	
-	public LottoEvt(LottoView lv) {
+	public LottoViewEvt(LottoView lv) {
 		this.lv = lv;
+		
+		l_dao = LottoDAO.getInstance();
 	}
 	
 	@Override
@@ -42,6 +47,26 @@ public class LottoEvt implements ActionListener {
 		if (e.getSource() == lv.getJbExit()) {
 			lv.dispose();
 		}
+		if (e.getSource() == lv.getJbShowNum()) {
+			int num = Integer.parseInt(lv.getJcbNum().getSelectedItem().toString());
+			System.out.println(num);
+			
+			showResult(num);
+		}
+	}
+	
+	public void showResult(int num) {
+		l_dao = LottoDAO.getInstance();
+
+		String msg;
+		try {
+			msg = l_dao.selectOneResult(num);
+			JOptionPane.showMessageDialog(lv, msg);
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(lv, "회차정보를 불러오지 못 하였습니다.");
+			e.printStackTrace();
+		}
+		
 	}
 	
 	public void startGame(int numOfGame) {

@@ -1,10 +1,7 @@
-package swing_view;
+package lotto_view;
 
-import java.awt.Button;
 import java.awt.Color;
 import java.awt.GridLayout;
-import java.awt.Label;
-import java.awt.Panel;
 import java.util.List;
 import java.util.Set;
 
@@ -14,8 +11,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.LineBorder;
 
-import swing_evt.LottoResultEvt;
+import lotto_controller.LottoResultEvt;
 
+@SuppressWarnings("serial")
 public class LottoResult extends JDialog {
 
 	public LottoResult(LottoView lv, List<Set<Integer>> listResult) {
